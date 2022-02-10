@@ -9,9 +9,9 @@ painting.addEventListener('click', function(e){
 //selected a colored box
 
 let blue = document.querySelector('#blue')
-let blue = document.querySelector('#red')
-let blue = document.querySelector('#yellow')
-let blue = document.querySelector('#green')
+let red = document.querySelector('#red')
+let yellow = document.querySelector('#yellow')
+let green = document.querySelector('#green')
 
 blue.addEventListener('click', function(){
     selectedColor = 'blue'
